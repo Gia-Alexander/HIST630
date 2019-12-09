@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI Encoding of the Introduction to Class 29 from <bibl><title> Volume III of the
+                     Official Catalogue of the Great Exhibition of the Works of Industry of All
+                     Nations <date when="1851">1851</date>(4 vols.),</title><biblScope unit="page"
+                     from="789" to="789"/></bibl></title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gia O. Alexander</authority>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>Fall 2019</date>
+            <availability>
+               <licence>This work is licensed under a Creative Commons Attribution 4.0 International
+                  Licence and may be freely reused with attribution.</licence>
+               <p>The primary source material for this project is available in the public domain at
+                  archive.org.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the publication of the source work. Introductions to sections of
+               the catalogue containing information about about writing substrates, implements and
+               accessories excerpted from <bibl><title>Volume III of the Official Catalogue of the
+                     Great Exhibition of the Works of Industry of All Nations <date
+                        when="1851">1851</date></title> (4 vols.) from
+                  <publisher>Archive.org</publisher>, scanned from <placeName ref="#HarvardCollege">Harvard College
+                     Library</placeName> by <publisher>Google Books</publisher>. <idno type="URI">
+                     https://archive.org/details/officialcatalog06unkngoog/page/n14</idno></bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="SmallWares">
+                  <catDesc>
+                     MISCELLANEOUS MANUFACTURES AND SMALL WARES
+                  </catDesc>
+                  <category xml:id="Perfume">
+                     <catDesc>A. Perfumery and Soap</catDesc>
+                  </category>
+                  <category xml:id="BoxesCases">
+                     <catDesc>B. Articles for personal use, as Writing-desks, Dressing-cases. Work-boxes, when not exhibited in connection with
+                        precious metals and travelling wear generally
+                        <idno type="URI">https://mostlyboxesantiques.com/epages/cbfa87b3-21bd-409d-ac51-11c8ded24597.sf/en_GB/?ObjectPath=/Shops/cbfa87b3-21bd-409d-ac51-11c8ded24597/Categories/28</idno>
+                     </catDesc>
+                  </category>
+                  <category xml:id="FakeFlowers">
+                     <catDesc>C. Artificial Flowers</catDesc>
+                  </category>
+                  <category xml:id="Candles">
+                     <catDesc>D. Candles, and other means of giving light</catDesc>
+                  </category>
+                  <category xml:id="Confectionery">
+                     <catDesc>E. Confectionery of all kinds</catDesc>
+                  </category>
+                  <category xml:id="Beads">
+                     <catDesc>F. Beads and Toys, when not of hardware. Fans, &amp;c.</catDesc>
+                  </category>
+                  <category xml:id="Umbrellas">
+                     <catDesc>G. Umbrellas, Parasols,Walking-sticks, &amp;c.</catDesc>
+                  </category>
+                  <category xml:id="Fishing">
+                     <catDesc>H. Fishing-tackle of all kinds, Archery, &amp;c.</catDesc>
+                  </category>
+                  <category xml:id="WalkingCanes">
+                     <catDesc>I. Canes of all kinds</catDesc>
+                  </category>
+                  <category xml:id="MiscSmallWares">
+                     <catDesc>J. Other miscellaneous manufactures</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="class" n="3.29">
+            <head type="class"> MISCELLANEOUS MANUFACTURES AND SMALL WARES</head>
+            <div type="intro">
+               <head type="subTitle"> INTRODUCTION. </head>
+
+               <p xml:id="a29"> The miscellaneous character of the objects included in this Class renders it
+                  difficult to convey a precise idea of its general import, or of the distinguishing
+                  features of the articles exhibited under it. Small wares may be taken to
+                  comprehend a very large variety of articles, and miscellaneous manufactures
+                  necessarily include a similar variety. The following feature may, however, be
+                  considered to characterise the articles brought together under this Class, that
+                  they are principally, though not exclusively, related to the minor points in the
+                  domestic economy of society. And this will be evident on examination of the
+                  Sub-Classes into which it is divided. </p>
+
+               <p xml:id="b29"> These are as follow : — A. Perfumery and Soap ; B. Articles for personal use, as
+                  Writing-desks, Dressing-cases. Work-boxes, when not exhibited in connection with
+                  precious metals and travelling wear generally ; C. Artificial Flowers ; D.
+                  Candles, and other means of giving light ; E. Confectionery of all kinds ; F.
+                  Beads and Toys, when not of hardware. Fans, &amp;c. ; G. Umbrellas, Parasols,
+                  Walking-sticks, &amp;c. ; H. Fishing-tackle of all kinds, Archery, &amp;c. ; I. Canes
+                  of all kinds; J. Other miscellaneous manufactures. </p>
+
+               <p xml:id="c29"> These articles are placed in the North Transept Gallery. Included, however, among
+                  the miscellaneous objects are two valuable and important collections which
+                  scarcely appear to come under precise recognition in this Class. These collections
+                  are of the imports of the towns of Liverpool and Hull. They have been arranged
+                  with great care, and present an excellent picture of the staple articles of trade,
+                  and of many of the less important ones, constantly received as imitations from
+                  abroad by these flourishing sea-ports. The list of the Liverpool Collection has
+                  been inserted in the body of this Catalogue, in consequence of the value attaching
+                  to accurate statistical local information. This list bos undergone careful
+                  scientific revision, and its generic expressions may be taken as, on the whole,
+                  accurate. </p>
+
+               <p xml:id="d29"> The manufacture of soaps and candles is the only one of great commercial
+                  importance to which this Class has relation. The employment of soap in many
+                  processes of manufacture, in addition to the intense demand created by domestic
+                  necessities, render its production on the great scale proportionally interesting.
+                  The rate of increase in the quantity produced, during the lost half-century, may
+                  be estimated from the fact that in <date when="1801">1801</date>, 52,947,037 lbs. of soap were consumed ;
+                  and, in <date when="1849">1849</date>, the annual consumption amounted to 197,632,280 lbs. The
+                  quantity per head amounted, in the latter year, to 971 lbs. annually ; in the
+                  former to 484 lbs. But which of the increase of consumption is to be attributed to
+                  the development of manufacture in which this substance is used for various
+                  purposes. It is a remarkable fact that, during the same period, the number of
+                  licensed makers of soap has decreased lo the extent of one-half, while the
+                  production has increased by two- thirds and upwards. Chemical science has applied
+                  itself to this manufacture with much success in this country, and the best soap is
+                  produced at a rate very inferior to that of indifferent soaps in other countries,
+                  and in our own at a former period. </p>
+
+               <p xml:id="e29"> The candle manufacture is also conducted on a very large scale. The introduction
+                  of oil, camphine, gas,, and other means of giving light, does not appear to have
+                  very materially influenced this manufacture. The cause of which may, perhaps, be
+                  sought in tho reluctance of many to apply gas to household users, and in the
+                  convenience of the use of a solid instead of a fluid material for domestic lights.
+                  Chemistry has effected much for this manufacture. By its aid a new material has
+                  been introduced which has become a most extensive substitute for wax and
+                  spermaceti, not only in this but also in foreign countries. Fiscal restrictions
+                  having been removed, the improvement in the candle manufacture has been most
+                  striking, and the benefit to the public and to commerce proportionate. </p>
+
+               <p xml:id="f29"> The minor articles comprised within the limits of tins (-lass do not receive
+                  fishing-tackle, &amp;e.,hnve all (heir re8iH.'ctiye importance, and may, by those
+                  interested in them, be studied in the locality already named. — <persName ref="#RE">R.
+                     E.</persName>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Offset Markup for Great Exhibition Project</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gia O. Alexander</authority>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>Fall 2019</date>
+            <availability>
+               <licence>This work is licensed under a Creative Commons Attribution 4.0 International
+                  License and may be freely reused with attribution.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born Digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+
+            <person xml:id="QueenVictoria">
+               <persName>
+                  <roleName type="nobility">Queen</roleName>
+                  <forename>Victoria</forename>
+               </persName>
+            </person>
+
+            <person xml:id="RE">
+               <persName>
+                  <forename full="init">R.</forename>
+                  <surname full="init">E.</surname>
+               </persName>
+            </person>
+
+         </listPerson>
+
+         <listPlace>
+
+            <place xml:id="Berkshire">
+               <placeName>Berkshire</placeName>
+            </place>
+            
+            <place xml:id="Birmingham">
+               <placeName>Birmingham</placeName>
+            </place>
+
+            <place xml:id="Derbyshire">
+               <placeName>Derbyshire</placeName>
+            </place>
+            
+            <place xml:id="England">
+               <placeName>England</placeName>
+            </place>
+
+            <place xml:id="GreatBritain">
+               <placeName>Great Britain</placeName>
+            </place>
+
+            <place xml:id="HarvardCollege">
+               <placeName>Harvard College</placeName>
+            </place>
+            
+            <place xml:id="Hereford">
+               <placeName>Hereford</placeName>
+            </place>
+            
+            <place xml:id="Ireland">
+               <placeName>Ireland</placeName>
+            </place>        
+            
+            <place xml:id="Kent">
+               <placeName>Kent</placeName>
+            </place>
+
+            <place xml:id="Lancashire">
+               <placeName>Lancashire</placeName>
+            </place>
+            
+            <place xml:id="Newcastle">
+               <placeName>Newcastle</placeName>
+            </place>
+
+            <place xml:id="London">
+               <placeName>London</placeName>
+            </place>
+            
+            <place xml:id="Sheffield">
+               <placeName>Sheffield</placeName>
+            </place>
+
+            <place xml:id="Southampton">
+               <placeName>Southampton</placeName>
+            </place>
+
+            <place xml:id="StHelena">
+               <placeName>St. Helena</placeName>
+            </place>
+            
+            <place xml:id="Sunderland">
+               <placeName>Sunderland</placeName>
+            </place>
+            
+            <place xml:id="UnitedKingdom">
+               <placeName>United Kingdom</placeName>
+            </place>
+            
+         </listPlace>
+
+      </body>
+   </text>
+</TEI>

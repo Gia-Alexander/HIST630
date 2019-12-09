@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI Encoding of the Introduction to Class 17 from <bibl><title> Volume III of the
+                     Official Catalogue of the Great Exhibition of the Works of Industry of All
+                     Nations <date when="1851">1851</date>(4 vols.),</title><biblScope unit="page"
+                     from="536" to="537"/></bibl></title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gia O. Alexander</authority>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>Fall 2019</date>
+            <availability>
+               <licence>This work is licensed under a Creative Commons Attribution 4.0 International
+                  Licence and may be freely reused with attribution.</licence>
+               <p>The primary source material for this project is available in the public domain at
+                  archive.org.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the publication of the source work. Introductions to sections of
+               the catalogue containing information about about writing substrates, implements and
+               accessories excerpted from <bibl><title>Volume III of the Official Catalogue of the
+                     Great Exhibition of the Works of Industry of All Nations <date when="1851"
+                        >1851</date></title> (4 vols.) from <publisher>Archive.org</publisher>,
+                  scanned from <placeName ref="#HarvardCollege">Harvard College Library</placeName>
+                  by <publisher>Google Books</publisher>. <idno type="URI">
+                     https://archive.org/details/officialcatalog06unkngoog/page/n14</idno></bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="Paper">
+                  <catDesc> PAPER, PRINTING, AND BOOKBINDING </catDesc>
+                  <category xml:id="BulkPaper">
+                     <catDesc>A. Paper in the raw slate as it leaves the mill, such as Brown Paper,
+                        Millboards, Printing, Writing, and Drawing Papen, &amp;c.</catDesc>
+                  </category>
+                  <category xml:id="Stationery">
+                     <catDesc>B. Articles of Stationery, as Envelopes, Lace Papers, Fancy Papers,
+                        Ornamented and Glazed Papers, Sealing-wai, Wafers, inks of ail kinds,
+                        &amp;c.
+                           <idno type="URI">https://hobancards.com/stationery-of-the-victorian-era</idno>
+                     </catDesc>
+                  </category>
+                  <category xml:id="CardStock">
+                     <catDesc>C. Pasteboards, Cards, &amp;c. ; and Scaleboard Boxes, Cartonnerie,
+                        &amp;c.</catDesc>
+                  </category>
+                  <category xml:id="Printing">
+                     <catDesc>D. Printing, not including printing as a fine art, and Printing Inks
+                        and Varnishes ; Bookbinding in cloth, velvet, vellum, &amp;c. ; Fancy Books,
+                        Portfolios, Desks, &amp;c,</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="class" n="3.17">
+            <head type="class"> PAPER, PRINTING, AND BOOKBINDING. </head>
+            <div type="intro">
+               <head type="subTitle"> INTRODUCTION. </head>
+
+               <p xml:id="a17"> Paper of every description, printing and bookbinding, with the
+                  miscellaneous articles connected with correspondence, and useful and ornamental
+                  stationery, form the subjects of the present Class. The manufacture of these
+                  articles—ministering not to the personal or domestic wants of mankind, fit much as
+                  to their intellectual requirements—is one of annual increase of which is
+                  coexistent with the diffusion of knowledge. And it may be truly said, that,
+                  morally and intellectually considered, the present Class relates to a species of
+                  industry exercising indirectly a more extensive influence over social economy than
+                  any of those into which this Exhibition has been subdivided. Books, it has been
+                  said, carry the productions of the human mind over the whole« world, and may be
+                  truly called the raw materials of every kind of science and art, and of all social
+                  improvement. The Sub-Classes are as follows : — A. Paper in the raw slate as it
+                  leaves the mill, such as Brown Paper, Millboards, Printing, Writing, and Drawing
+                  Papen, &amp;c. ; B. Articles of Stationery, as Envelopes, Lace Papers, Fancy
+                  Papers, Ornamented and Glazed Papers, Sealing-wai, Wafers, inks of ail kinds,
+                  &amp;c. ; C. Pasteboards, Cards, &amp;c. ; and Scaleboard Boxes, Cartonnerie,
+                  &amp;c. ; D. Printing, not including printing as a fine art, and Printing Inks and
+                  Varnishes ; Bookbinding in cloth, velvet, vellum, &amp;c. ; Fancy Books,
+                  Portfolios, Desks, &amp;c, </p>
+
+               <p xml:id="b17"> The position occupied in the Building is in the North side of the
+                  Western Main Avenue ; and the Areas included are F, 27 to 29, G. H. I. J. 26 and
+                  27. Rather more than 200 exhibitors appear to represent this Class in its various
+                  branches of industry. </p>
+
+               <p xml:id="c17"> The localities from whence the articles exhibited have been sent are
+                  much less restricted than in preceding Classes. Many of the exhibitors appear in
+                  the capacity of producers of small articles for fancy purposes ; and as these are
+                  obviously capable of being made at home, requiring taste and minute skill rather
+                  than mechanical power for their manufacture, the places from which they have been
+                  forwarded for exhibition have not the special interest attaching to great
+                  producing towns or cities, where thousands of machines and operatives are all
+                  occupied in one department of manufacture. From the metropolis, however, where a
+                  large demand for such articles exists, the great proportion of them are derived.
+                     <placeName ref="#London">London</placeName> also represents most largely the
+                  enormous printing resources of this country. Hut of these, as specimens only of
+                  single works can appear, but a faint idea can le gained from the examples
+                  exhibited, In one of the greatest establishments of the <placeName ref="#London"
+                     >Metropolis</placeName> twenty machines are constantly occupied, each of which
+                  is capable of throwing off from 3,000 to 4,000 impressions per hour, and in
+                  addition a large number of printing machines for fine work are employed. These
+                  great printing establishments resemble very closely the large manufactories of
+                  other districts, only their origination differs with the peculiar nature of the
+                  manufacture, if the mechanical production of printed books may be so termed. </p>
+
+               <p xml:id="d17"> Paper, more legitimately reckoned among manufactures than printing,
+                  has a certain limitation to districts for particular kinds. Considerably more is
+                  made in <placeName ref="#England">England</placeName> than in <placeName
+                     ref="#Scotland">Scotland</placeName> or <placeName ref="#Ireland"
+                     >Ireland</placeName>. <placeName ref="#Kent">Kent</placeName> is celebrated for
+                  its fine writing and drawing papers. From <placeName ref="#Lancashire"
+                     >Lancashire</placeName>, <placeName ref="#Berkshire">Berkshire</placeName>,
+                     <placeName ref="#Hereford">Hereford</placeName>, and <placeName
+                     ref="#Derbyshire">Derbyshire</placeName>, papers of various kinds are supplied.
+                  The quantity of paper annually manufactured in <placeName ref="#England"
+                     >England</placeName> two years ago amounted to 132,132,657 lbs. ; in <date
+                     when="1834">1834</date>, it was little more than half that quantity. In <date
+                     when="1839">1839</date>, it was estimated that the quantity used, if equally
+                  divided among the population, would have been about three pounds and three-
+                  quarters for each individual. </p>
+
+               <p xml:id="e17"> A variety of mechanical improvements, both in the production of
+                  paper and in that of printed books, has been introduced of late. In the
+                  manufacture of paper the substitution of machine for hand labour has been attended
+                  with the most momentous results. In <date when="1801">1801</date>, the price of a
+                  ream of paper of a particular description was 36s. ; in <date when="1834"
+                     >1843</date>, the same paper could be purchased for rather less than half this
+                  sum. In 1721, it is estimated that 300,000 reams of paper were annually produced
+                  in <placeName ref="#GreatBritain">Great Britain</placeName>. In <date when="1843"
+                     >1841</date>, 97,105,550 lbs. were made in the <placeName ref="#UnitedKingdom"
+                     >United Kingdom</placeName> ; the total annual value is at present not far
+                  short of two millions sterling. Much of tbc increase thus exhibited is due to the
+                  introduction of mechanical power ; but the fiscal regulations upon this branch of
+                  industry, which were formerly extremely oppressive, having been removed to some
+                  extent, another cause of increased production and consumption is thus superadded.
+                  Paper may, however, be likewise regarded as a chemical product, as it is certain
+                  that a large amount of chemical knowledge has been successfully combined with
+                  mechanical skill in its preparation. By the cumulative forces of chemical
+                  processes and mechanical instruments, the most refuse matter thus becomes
+                  converted into a white and pure material. As an evidence of the enormous length of
+                  paper produced by mechanical power, two great rolls are exhibited —one is 750
+                  yards long, the other 2500 yards in length. </p>
+
+               <p xml:id="f17"> The application of improved machinery to printing is also of recent
+                  date, and has been attended with results of great moment. Progress is still made
+                  in this direction, and in a preceding Class will be found a more detailed account
+                  of the introduction of an entirely new principle in printing (the vertical), the
+                  application of which for the rapid multiplication of newspapers is extending. By
+                  this arrangement, the vertical, the power of production is only limited by the
+                  size of the machine. </p>
+
+               <p xml:id="g17"> Among many interesting specimens of typography, those which exhibit
+                  the production of books in other countries, by type cast in <placeName
+                     ref="#England">England</placeName>, will attract notice. The Holy Scriptures
+                  are exhibited in one hundred and fifty different languages—a noble evidence of the
+                  highest application of industry to the enlightenment and welfare of mankind.
+                  Beautiful specimens of the bookbinder's art are likewise shown. </p>
+
+               <p xml:id="h17"> An envelope-folding machine, placed at the side of the Main Avenue,
+                  is a striking instance of the successful application or mechanical movements to
+                  the performance of the most delicate and complicated actions. By this machine,
+                  which would in strictness appear to belong to a preceding Class, the movements of
+                  the hand of the folder are not only exactly imitated, but the result is more
+                  accurate and certain, and the power of pro- duction is very largely increased. </p>
+
+               <p xml:id="i17"> The peculiar interest which attaches to the objects in this Class,
+                  as the most powerful agents in the social and intellectual improvement of man,
+                  cannot fail to be awakened by the most casual inspection. Paper, printing and
+                  bookbinding, are, however, only the raw material, the application and reproduction
+                  of which is dependent upon the powers of the mind, not on those of matter. —
+                     <persName ref="#RE">R. E.</persName>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

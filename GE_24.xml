@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI Encoding of the Introduction to Class 24 from <bibl><title> Volume III of the
+                     Official Catalogue of the Great Exhibition of the Works of Industry of All
+                     Nations <date when="1851">1851</date>(4 vols.),</title><biblScope unit="page"
+                     from="697" to="698"/></bibl></title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gia O. Alexander</authority>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>Fall 2019</date>
+            <availability>
+               <licence>This work is licensed under a Creative Commons Attribution 4.0 International
+                  Licence and may be freely reused with attribution.</licence>
+               <p>The primary source material for this project is available in the public domain at
+                  archive.org.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the publication of the source work. Introductions to sections of
+               the catalogue containing information about about writing substrates, implements and
+               accessories excerpted from <bibl><title>Volume III of the Official Catalogue of the
+                     Great Exhibition of the Works of Industry of All Nations <date
+                        when="1851">1851</date></title> (4 vols.) from
+                  <publisher>Archive.org</publisher>, scanned from <placeName ref="#HarvardCollege">Harvard College
+                     Library</placeName> by <publisher>Google Books</publisher>. <idno type="URI">
+                     https://archive.org/details/officialcatalog06unkngoog/page/n14</idno></bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="Glass">
+                  <catDesc>
+                     GLASS
+                  </catDesc>
+                  <category xml:id="Windows">
+                     <catDesc>A. Window-glass, including Sheet-glass, Crown-glass, and Coloured Sheet-glass</catDesc>
+                  </category>
+                  <category xml:id="StainedGlass">
+                     <catDesc>B. Painted, and other kinds of ornamented Window-glass</catDesc>
+                  </category>
+                  <category xml:id="CastGlass">
+                     <catDesc>C. Cast plate-glass</catDesc>
+                  </category>
+                  <category xml:id="Bottles">
+                     <catDesc>D. Bottle-glass</catDesc>
+                  </category>
+                  <category xml:id="ChemGlass">
+                     <catDesc>E. Glass for Chemical and Philosophical Apparatus</catDesc>
+                  </category>
+                  <category xml:id="FlintGlass">
+                     <catDesc>F. Flint-glass, or Crystal, with or without lead, white, coloured, and ornamented
+                        for Table Vases, &amp;c.</catDesc>
+                  </category>
+                  <category xml:id="OpticalGlass">
+                     <catDesc>G. Optical Glass, Flint and Crown.
+                        <idno type="URI">https://www.pinterest.com/0dzfvk5cc28d7wk/antique-magnifying-glasses/?autologin=true</idno>
+                     </catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="class" n="3.24">
+            <head type="class">GLASS</head>
+            <div type="intro">
+               <head type="subTitle"> INTRODUCTION. </head>
+
+               <p xml:id="a24"> The beautiful and valuable production, which forms the subject of the present
+                  Class and its subdivisions, is beginning to assume an extraordinary degree of
+                  importance id the present day. Yet few manufactures have, until within a very
+                  recent period, made so small an amount of progress. Every process of the
+                  manufacturer having been beset with the stringent regulations considered to be
+                  necessary to enforce the due observance of ho Excise laws, and no exemption being
+                  permitted even for the purposes of experiment or improvement, it is scarcely a
+                  matter of surprise that the production of glass remained in a poor and imperfect
+                  state both as a manufacture and as a philosophical problem. The same causes now no
+                  longer existing, a vast amount of progress baa been made both in the extension of
+                  the applications of this product, and also in the processes of its manufacture. </p>
+
+               <p xml:id="b24"> Considered philosophically, the Class resolves itself into the following
+                  subdivisions: — A. Window-glass, including Sheet-glass, Crown-glass, and Coloured
+                  Sheet-glass ; B. Painted, and other kinds of ornamented Window-glass ; C. Cast
+                  plate-glass ; D. Bottle-glass; E. Glass for Chemical and Philosophical Apparatus;
+                  F. Flint-glass, or Crystal, with or without lead, white, coloured, and ornamented
+                  for Table Vases, &amp;c. ; G. Optical Glass, Flint and Crown. </p>
+
+               <p xml:id="c24"> The position in the Building where articles in this Class will be sought is in
+                  the Central North Gallery, where an extremely beautiful and interesting collection
+                  of various articles in glass is displayed. Immediately above these articles, and
+                  suspended from the girders of the roof, are large and costly chandeliers, of great
+                  magnificence of appearance, and in white and coloured crystal-glass. But in
+                  other parts of the Building various large objects belonging (o this Class are
+                  arranged, as in the Transept and Main Avenues. The size of these will not fail to
+                  render them appreciable to the visitor. the whole Building may, in fact, be
+                  regarded as a display of the powers of the manufacturers of this country to
+                  produce rapidly, and from apparently exhaustless resources, this beautiful
+                  material. </p>
+
+               <p xml:id="d24"> As the glass, forming so large a portion of the Exhibition Building is of
+                     <placeName ref="#Birmingham">Birmingham</placeName> production, it may be reasonably imagined
+                  that from this town the largest contributions of glass have been forwarded. This
+                  glass manufacture being extensive in this place, has become developed to an
+                  enormous degree after (he removal of The Excise restrictions in <date when="1845">1845</date>. Formerly
+                  glass was made in <placeName ref="#Birmingham">Birmingham</placeName> only by large manufacturers,
+                  but now the commoner kinds of blown and pressed glass are produced in large
+                  quantities by persons having only a small amount of capital, manufacturing on a
+                  limited scale, at a cheap rate, and requiring a rapid conversion of the proceeds
+                  of their little furnaces into money. The glass thus produced is of the most
+                  inferior kind, and would only find a sale in consequence of its marvellous
+                  cheapness. The works of the great manufacturers are on the most splendid and
+                  extensive scale, and in them the manufacture of this strictly chemical product is
+                  carried on upon a truly philosophic basis, and on the grandest commercial scale.
+                  As an evidence of this may be adduced the production at one great establishment,
+                  in addition to their ordinary business, of that vast surface of glass which covers
+                  and protects the Building. Probably in no other country could a demand as sudden
+                  and unexpected have been met with so much certainty as in the instance in
+                  question. </p>
+
+               <p xml:id="e24"> [n addition to the glass of the Building, the Great Crystal Fountain, in the
+                  Transept, has its interest as a production derived from the same locality. This
+                  fountain is twenty-seven feet in perpendicular altitude, and contains about four
+                  tons of pure crystal glass. It is probably the largest production of its kind ever
+                  made. The great specimens of plate-glass, one of which exceeds considerably the
+                  size of any previous sheet of glass made jn any country, are not exclusively from
+                     <placeName ref="#Birmingham">Birmingham</placeName>. <placeName ref="#StHelens">St. Helen's</placeName>,
+                     <placeName ref="#Sunderland">Sunderland</placeName>, <placeName ref="#Newcastle">Newcastle</placeName>, and other
+                  localities, contain large glass-works, some of which are exclusively devoted to
+                  the manufacture of plate-glass, which :s a very distinct art from that of ordinary
+                  glass. Bottle and chemical glass is produced on a vast scale at Stourbridge, a
+                  locality possessing several natural advantages for the prosecution of
+                  glass-melting. Glass-houses exist in the <placeName ref="#London">
+                  Metropolis</placeName> itself, which turn out principally table and ornamental
+                  glass. </p>
+
+               <p xml:id="f24"> A most remarkable circumstance in the history of the glass manufacture is the
+                  fact that, during half a century prior to the removal of the duty, notwithstanding
+                  the augmentation of the population, there was actually a decrease in the quantity
+                  of glass manufactured. Since <date when="1845">1845</date>, however, it has immensely
+                  increased, and is daily receiving new applications, the value of the material for
+                  a variety of purposes having long been recognised, but its employment being
+                  rendered impossible by the excessive duties to which it was subjected, </p>
+
+               <p xml:id="g24"> English manufacturers have lately been making important experiments with a view
+                  to discover a method of producing glass free from colour, and from striae, for
+                  optical purposes. Several specimens are exhibited in illustration, and appear to
+                  promise favourably for the issue. The great refracting Telescope in the Nave is an
+                  evidence that large achromatic glasses, nearly a foot in diameter, are capable of
+                  being produced from English glass. Hitherto much of the optical glass has been
+                  derived from abroad. It is a gratifying fact that already glass is beginning to be
+                  actually exported for the use of continental opticians, and it is sometimes
+                  reimported at a higher rate into <placeName ref="#England">England</placeName>, under the assumed
+                  title of foreign glass. Successful attempts to imitate the beautiful art of the
+                  Venetians in ornamental glass have lately been made, and specimens are exhibited.
+                  New and patented processes of silvering glass, not with mercury, but with a
+                  deposit of pure silver, receive a variety of beautiful illustrations in different
+                  objects. </p>
+
+               <p xml:id="h24"> It would be difficult to name another material which could, with any advantage,
+                  take the place of glass in its domestic, economical, and philosophical purposes.
+                  The facility of its manipulation, combined with the beauty of the material, and
+                  the perfect applicability to the purposes for which it is designed, render this
+                  manufacture one of the most interesting, and probably ultimately among the most
+                  important, of this country. England possesses great facilities for the production
+                  of the best glass, on the largest scale and at the cheapest rate. In her natural
+                  stores of fuel, in her commercial resources of alkali, and in the possession of
+                  the requisite capital to enter largely into this branch of industry, this country
+                  appears to require nothing beyond a short space of time to assume one of the first
+                  positions in the manufacture of glass. And the variety of interesting facts which
+                  become daily linked with the process of this art, appear to leave little doubt
+                  that, ere long, glass will be substituted for many of the materials used in the
+                  economy of our dwellings, and probably for their construction also. — <persName  ref="#RE">R.
+                  E.</persName>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

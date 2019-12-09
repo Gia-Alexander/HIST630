@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI Encoding of the Introduction to Class 23 from <bibl><title> Volume III of the
+                     Official Catalogue of the Great Exhibition of the Works of Industry of All
+                     Nations <date when="1851">1851</date>(4 vols.),</title><biblScope unit="page"
+                     from="671" to="671"/></bibl></title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gia O. Alexander</authority>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>Fall 2019</date>
+            <availability>
+               <licence>This work is licensed under a Creative Commons Attribution 4.0 International
+                  Licence and may be freely reused with attribution.</licence>
+               <p>The primary source material for this project is available in the public domain at
+                  archive.org.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the publication of the source work. Introductions to sections of
+               the catalogue containing information about about writing substrates, implements and
+               accessories excerpted from <bibl><title>Volume III of the Official Catalogue of the
+                     Great Exhibition of the Works of Industry of All Nations <date when="1851"
+                        >1851</date></title> (4 vols.) from <publisher>Archive.org</publisher>,
+                  scanned from <placeName ref="#HarvardCollege">Harvard College Library</placeName> by <publisher>Google
+                     Books</publisher>. <idno type="URI">
+                     https://archive.org/details/officialcatalog06unkngoog/page/n14</idno></bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="Metal">
+                  <catDesc>
+                     WORKS IN PRECIOUS METALS, JEWELLRY, ETC. 
+                  </catDesc>
+                  <category xml:id="Communion">
+                     <catDesc>A. Communion Services</catDesc>
+                  </category>
+                  <category xml:id="PreciousMetals">
+                     <catDesc> B, Articles of Gold and Silver Plate fur decorative purposes, and Presentation Pieces</catDesc>
+                  </category>
+                  <category xml:id="GeneralDomestic">
+                     <catDesc>C. Smaller Articles for more general domestic use</catDesc>
+                  </category>
+                  <category xml:id="ElectroPlate">
+                     <catDesc>D. Electro-plated Goods of all descriptions, comprehending all that can be executed in Silver and other Metals</catDesc>
+                  </category>
+                  <category xml:id="SheffieldPlate">
+                     <catDesc>E. Sheffield and other Plated Goods</catDesc>
+                  </category>
+                  <category xml:id="Ormolu">
+                     <catDesc>F. Gilt and Ormolu Work
+                        <idno type="URI">https://www.1stdibs.com/furniture/decorative-objects/desk-accessories/inkwells/material/ormolu/</idno>
+                     </catDesc>
+                  </category>
+                  <category xml:id="Jewellery">
+                     <catDesc>G. Jewellery, inclusive of Precious Stones and Ornaments worked in Ivory, Jet, Sec.</catDesc>
+                  </category>
+                  <category xml:id="OrnamentsToys">
+                     <catDesc>H. Ornaments and Toys, worked in Iron, Steel, and any other
+                        metal, which are neither precious metals nor imitations of them, as Chatelains of
+                        Steel, Chains of Steel, Sword-hilts, Cut-steel Shoe and Knee Buckles, &amp;c.</catDesc>
+                  </category>
+                  <category xml:id="Enamel">
+                     <catDesc>I. Enameling and Damascene Work</catDesc>
+                  </category>
+                  <category xml:id="Curios">
+                     <catDesc>J. Articles of use or curiosity not included in the previous Sub-Classes. </catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="class" n="3.23">
+            <head type="class"> WORKS IN PRECIOUS METALS, JEWELLRY, ETC. </head>
+            <div type="intro">
+               <head type="subTitle"> INTRODUCTION. </head>
+
+               <p xml:id="a23"> The present Class comprises objects of great attractiveness to almost every
+                  individual. The opportunity they afford for the display of taste and skill, and
+                  even of a high description of art, combined with the intrinsic beauty and value of
+                  the material in which these objects are wrought, makes them an extremely
+                  interesting study. It Is impossible, also, other considerations being disregarded,
+                  to suppress a feeling of surprise and admiration at tbe massive character of many
+                  of the articles in this Class, indicating the wealth and resources of the
+                  manufacturers. As an instance may be mentioned, a. solid silver table-top,
+                  fifty-five inches in diameter, and weighing nearly nine hundred ounces. But when
+                  it is considered that upon the reduction of the unshapen metal into its present
+                  form, the artist and mechanic have both been occupied, and that the result is to
+                  indicate not less the talent of the one than the industrial skill of the other,
+                  these objects, whatever their size or intrinsic value, assume, in proportion to
+                  the degree of talent and labour employed in their manufacture, a new and higher
+                  value. </p>
+
+               <p xml:id="b23"> This Class is divisible into the following Sub-Classes : — A. Communion Services
+                  ; B, Articles of Gold and Silver Plate fur decorative purposes, and Presentation
+                  Pieces ; C. Smaller Articles for more general domestic use ; D. Elect
+                  Electro-plated Goods of all descriptions, comprehending all that can be executed
+                  in Silver and other Metals : E. Sheffield and other Plated Goods ; P. Gilt and
+                  Ormolu Work ; G. Jewellery, inclusive of Precious Stones and Ornaments worked in
+                  Ivory, Jet, Sec. ; H. Ornaments and Toys, worked in Iron, Steel, and any other
+                  metal, which are neither precious metals nor imitations of them, as Chatelains of
+                  Steel, Chains of Steel, Sword-hilts, Cut-steel Shoe and Knee Buckles, &amp;c. ; I.
+                  Enameling and Damascene Work ; and J. Articles of use or curiosity not included in
+                  the previous Sub-Classes. </p>
+
+               <p xml:id="c23"> The general position in the Building o the articles in this Class is in the South
+                  Central Gallery. After passing from the cases containing lace and embroidery,
+                  proceeding westward, these which contain the articles in the precious metals arc
+                  met with, and extend from M. 6 to 22. But several objects properly belonging to
+                  this Class, and included in it, are exhibited, as in other instances, in other
+                  parts of the Building ; the Jewel- case and the Great Diamond exhibited by
+                     <persName ref="#QueenVictoria">Her Majesty</persName> are instances of this
+                  description. </p>
+
+               <p xml:id="d23"> Articles in the precious metals are produced in almost all large towns, and those
+                  exhibited are consequently derived from a number of different lucidities. In the
+                  metropolis very large and wealthy firms exist, producing annually large quantities
+                  of silver goods, upon some of which great expenses are incurred, in order to give
+                  to them the character of art-productions. Since the introduction of the beautiful
+                  art of electro-plating, <placeName ref="#Birmingham">Birmingham</placeName> has supplied very large
+                  quantities of silver and electro-plated articles, and a number of extensive
+                  factories exist in that town, in which this strictly chemical operation is
+                  practiced on a grand and commercial scale. In Sheffield the process of plating by
+                  fire, that is, by the soldering a plate of silver on an ingot of copper by means
+                  of heat, rolling out and fashioning for use, has long been successfully pursued.
+                  It has been established that the value of the British-made plate annually used in
+                  this country amounts to 1,200,000 lb, and the exports of plate, jewellry, &amp;c,
+                  amounted to the value of 233,058L. </p>
+
+               <p xml:id="e23"> All these varieties in the manufacture of objects of use and luxury included in
+                  this Class will be found illustrated by the productions of different exhibitors,
+                  by many of whom a gorgeous display of plate and jewels is made. Attention cannot
+                  fail to be directed to the great Diamond, the Koh-i-Noor ; and to the Jewel-case
+                  in the Cinque-Cento style, exhibited by <persName>Her Majesty The
+                  Queen</persName>. In addition is a table of gold and silver electro- plate, which
+                  is an interesting reproduction of an antique subject. The massive specimens of
+                  presentation plate exhibited will likewise receive due notice. Among the jewels
+                  are several interesting and perhaps unique specimens ; one of the latter is a
+                  large blue diamond weighing 177 grains. -- <persName  ref="#RE">R. E.</persName>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

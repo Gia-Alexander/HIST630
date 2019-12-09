@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+   <fileDesc>
+         <titleStmt>
+            <title>TEI Encoding of the Introduction to Class 26 from <bibl><title> Volume III of the
+                     Official Catalogue of the Great Exhibition of the Works of Industry of All
+                     Nations <date when="1851">1851</date>(4 vols.),</title><biblScope unit="page"
+                     from="729" to="729"/></bibl></title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gia O. Alexander</authority>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>Fall 2019</date>
+            <availability>
+               <licence>This work is licensed under a Creative Commons Attribution 4.0 International
+                  Licence and may be freely reused with attribution.</licence>
+               <p>The primary source material for this project is available in the public domain at
+                  archive.org.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the publication of the source work. Introductions to sections of
+               the catalogue containing information about about writing substrates, implements and
+               accessories excerpted from <bibl><title>Volume III of the Official Catalogue of the
+                     Great Exhibition of the Works of Industry of All Nations <date
+                        when="1851">1851</date></title> (4 vols.) from
+                  <publisher>Archive.org</publisher>, scanned from <placeName ref="#HarvardCollege">Harvard College
+                     Library</placeName> by <publisher>Google Books</publisher>. <idno type="URI">
+                     https://archive.org/details/officialcatalog06unkngoog/page/n14</idno></bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="Furniture">
+                  <catDesc>
+                     FURNITURE, UPHOLSTERY, PAPER HANGINGS, PAPIER MACHE AND JAPANNED GOODS
+                  </catDesc>
+                  <category xml:id="Decor">
+                     <catDesc>A. Decoration generally, including Ecclesiastical Decoration</catDesc>
+                  </category>
+                  <category xml:id="Upholstery">
+                     <catDesc>B, Furniture Upholstery</catDesc>
+                  </category>
+                  <category xml:id="Wallpaper">
+                     <catDesc>C. Paper-hangings</catDesc>
+                  </category>
+                  <category xml:id="PapierMache">
+                     <catDesc>D. Papier mache. Japanned Goods, Pearl, and Tortoiseshell work.
+                        <idno type="URI">https://www.pinterest.com/spdaut/antique-victorian-papier-mache/</idno>
+                     </catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="class" n="3.26">
+            <head type="class"> FURNITURE, UPHOLSTERY, PAPER HANGINGS, PAPIER MACHE AND JAPANNED
+               GOODS. </head>
+            <div type="intro">
+               <head type="subTitle"> INTRODUCTION. </head>
+
+               <p xml:id="a26"> The objects contemplated by the present Class are such as pertain to decorative
+                  and domestic uses in the furniture exclusively of this description. All those
+                  articles fur which the wants or luxuries of mankind have created a demand are
+                  represented in this Class, and a lively picture of the degree of social and
+                  domestic refinement attained in our age, and also, in fact, of the application of
+                  art to ordinary objects, is thus presented to view. The Class is a large one in
+                  regard to the number of its Exhibitors, and also to the space occupied in the
+                  Exhibition Building. The articles exhibited present evidences of a large
+                  expenditure of time and money, and many of the decorative objects appear better to
+                  become the apartments of a palace than those of persons in the ordinary walks of
+                  life. </p>
+
+               <p xml:id="b26"> The Class is thus subdivided : — A. Decoration generally, including
+                  Ecclesiastical Decoration ; B, Furniture ]il Upholstery ; C. Paper-hangings ; D.
+                  Papier mache. Japanned Goods, Pearl, and Tortoiseshell work. In the Building,
+                  articles belonging to this Class will be found arranged in Areas I. J. 19 to 25,
+                  and L. to O, 21 to 24. These Areas will be readily found ou the South side of the
+                  Eastern Nave, midway between the Transept and the Western Entrance. Several
+                  specimens of furniture are exhibited among the objects in the Fine Art Court. The
+                  immense mirrors in the Avenue, which may be considered, when mounted in decorated
+                  frames. as belonging to this Class, occupy a prominent position, which must render
+                  them appreciable to every visitor. other articles, such as a Corinthian capital in
+                  papier mache, a pianoforte, and a table in the same material, are likewise placed
+                  in the Western Main Avenue. The paper-hangings are placed on the wall at the
+                  North-east corner of the Building, on the Ground Floor, and in the Gallery above.
+                  The wall decorations, imitation marbles and woods, blinds, &amp;c, are placed
+                  against the principal walls and partitions of the Building the South side, East
+                  and West ends, North-east corner, and in the Locomotive Avenue. In the Court,
+                  called the Medieval Court, are also a collection of articles included in this
+                  Class. </p>
+
+               <p xml:id="c26"> The number of different localities producing such articles as are comprised
+                  within this Class is, as might be expected, very considerable, although a large
+                  proportion, from causes readily intelligible, is derived from the Metropolis. The
+                  production of most of the objects of furniture, presenting few mechanical
+                  difficulties, and being universally felt to be necessary, is carried on in almost
+                  every locality in this kingdom. But some of those articles which relate to
+                  decoration, as pa|)cr-hangings, are generally made in the larger manufacturing
+                  towns only. Of late, Manchester has produced a large number of paper-hangings,
+                  printed by machinery ; in the Metropolis, a higher but more expensive class of
+                  paper-hanging is made principally by ink, or, in other terms, by block-printing.
+                  The manufacture of papier mache is carried on to a very large extent at 
+                  Birmingham, where extensive factories have been erected, which are devoted solely to
+                  the production of a variety of objects in this useful material. The manufacture is
+                  also carried on at <placeName ref="#Southampton">Southampton</placeName> and in the
+                     <placeName ref="#London">Metropolis</placeName>. </p>
+
+               <p xml:id="d26"> The amount of ingenuity, of contrivance, and arrangement, which has been expended
+                  upon furniture, is scarcely conceivable, and it has been applied to the moat
+                  common objects of domestic utility. Tables, couches, chairs, &amp;c., have all
+                  received a share of this kind of attention ; and those improvements in their
+                  adaptation to use, which have been considered worthy of more extensive
+                  introduction, are illustrated in different directions, Many specimens of
+                  furniture, formed out of timber of extreme antiquity, are exhibited. Furniture Is,
+                  also, shown, the material of which is new in its application to such purposes — as
+                  timber from New Zealand, &amp;c. The beautiful varieties of veining im mahogany,
+                  walnut, oak, and other woods, arc admirably illustrated in different pieces of
+                  furniture exhibited. </p>
+
+               <p xml:id="e26"> Glass has lately been applied with some success in imitation of marble for the
+                  purposes of decoration. The under surface is painted with the colours and veins of
+                  marble, and the effect seen from above is not dissimilar, a variety of
+                  paper-hangings of different designs, and of decorations applied to apartments,
+                  are also exhibited. The paper mache articles are extremely beautiful, and the
+                  manner in which they are inlaid with pearl is interesting. </p>
+
+               <p xml:id="f26"> The appearance of the entire Class bespake a high degree of national prosperity ;
+                  and, while displaying the skill and taste of the manufacturers, indicates not less
+                  distinctly the wealth and domestic refinement of those for whose use the greater
+                  majority of the articles exhibited are unquestionably intended. — <persName ref="#RE">R.
+                  E.</persName>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
