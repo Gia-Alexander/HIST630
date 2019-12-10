@@ -98,25 +98,25 @@
 
                <p xml:id="c17"> The localities from whence the articles exhibited have been sent are
                   much less restricted than in preceding Classes. Many of the exhibitors appear in
-                  the capacity of producers of small articles for fancy purposes ; and as these are
+                  the capacity of producers of <ptr target="#Stationery"/>small articles for fancy purposes ; and as these are
                   obviously capable of being made at home, requiring taste and minute skill rather
                   than mechanical power for their manufacture, the places from which they have been
                   forwarded for exhibition have not the special interest attaching to great
                   producing towns or cities, where thousands of machines and operatives are all
-                  occupied in one department of manufacture. From the metropolis, however, where a
+                  occupied in one department of manufacture. From the <placeName ref="#London">metropolis,</placeName> however, where a
                   large demand for such articles exists, the great proportion of them are derived.
                      <placeName ref="#London">London</placeName> also represents most largely the
                   enormous printing resources of this country. Hut of these, as specimens only of
-                  single works can appear, but a faint idea can le gained from the examples
+                  single works can appear, but a faint idea can be gained from the examples
                   exhibited, In one of the greatest establishments of the <placeName ref="#London"
-                     >Metropolis</placeName> twenty machines are constantly occupied, each of which
+                     >Metropolis</placeName> <ptr target="#Printing"/>twenty machines are constantly occupied, each of which
                   is capable of throwing off from 3,000 to 4,000 impressions per hour, and in
-                  addition a large number of printing machines for fine work are employed. These
+                  addition a large number of <ptr target="#Printing"/>printing machines for fine work are employed. These
                   great printing establishments resemble very closely the large manufactories of
                   other districts, only their origination differs with the peculiar nature of the
                   manufacture, if the mechanical production of printed books may be so termed. </p>
 
-               <p xml:id="d17"> Paper, more legitimately reckoned among manufactures than printing,
+               <p xml:id="d17"> <ptr target="#BulkPaper"/>Paper, more legitimately reckoned among manufactures than printing,
                   has a certain limitation to districts for particular kinds. Considerably more is
                   made in <placeName ref="#England">England</placeName> than in <placeName
                      ref="#Scotland">Scotland</placeName> or <placeName ref="#Ireland"
@@ -133,12 +133,12 @@
                   quarters for each individual. </p>
 
                <p xml:id="e17"> A variety of mechanical improvements, both in the production of
-                  paper and in that of printed books, has been introduced of late. In the
+                  <ptr target="#BulkPaper"/>paper and in that of <ptr target="#Printing"/>printed books, has been introduced of late. In the
                   manufacture of paper the substitution of machine for hand labour has been attended
                   with the most momentous results. In <date when="1801">1801</date>, the price of a
                   ream of paper of a particular description was 36s. ; in <date when="1834"
                      >1843</date>, the same paper could be purchased for rather less than half this
-                  sum. In 1721, it is estimated that 300,000 reams of paper were annually produced
+                  sum. In <date when="1721">1721</date>, it is estimated that 300,000 reams of paper were annually produced
                   in <placeName ref="#GreatBritain">Great Britain</placeName>. In <date when="1843"
                      >1841</date>, 97,105,550 lbs. were made in the <placeName ref="#UnitedKingdom"
                      >United Kingdom</placeName> ; the total annual value is at present not far
@@ -149,12 +149,12 @@
                   Paper may, however, be likewise regarded as a chemical product, as it is certain
                   that a large amount of chemical knowledge has been successfully combined with
                   mechanical skill in its preparation. By the cumulative forces of chemical
-                  processes and mechanical instruments, the most refuse matter thus becomes
+                  processes and <ptr target="#Printing"/>mechanical instruments, the most refuse matter thus becomes
                   converted into a white and pure material. As an evidence of the enormous length of
-                  paper produced by mechanical power, two great rolls are exhibited —one is 750
+                  paper produced by mechanical power, two great <ptr target="#BulkPaper"/>rolls are exhibited —one is 750
                   yards long, the other 2500 yards in length. </p>
 
-               <p xml:id="f17"> The application of improved machinery to printing is also of recent
+               <p xml:id="f17"> The application of improved <ptr target="#Printing"/>machinery to printing is also of recent
                   date, and has been attended with results of great moment. Progress is still made
                   in this direction, and in a preceding Class will be found a more detailed account
                   of the introduction of an entirely new principle in printing (the vertical), the
@@ -162,7 +162,7 @@
                   this arrangement, the vertical, the power of production is only limited by the
                   size of the machine. </p>
 
-               <p xml:id="g17"> Among many interesting specimens of typography, those which exhibit
+               <p xml:id="g17"> Among many interesting specimens of <ptr target="#Printing"/>typography, those which exhibit
                   the production of books in other countries, by type cast in <placeName
                      ref="#England">England</placeName>, will attract notice. The Holy Scriptures
                   are exhibited in one hundred and fifty different languages—a noble evidence of the
@@ -179,7 +179,7 @@
                <p xml:id="i17"> The peculiar interest which attaches to the objects in this Class,
                   as the most powerful agents in the social and intellectual improvement of man,
                   cannot fail to be awakened by the most casual inspection. Paper, printing and
-                  bookbinding, are, however, only the raw material, the application and reproduction
+                  bookbinding, are, however, only the <ptr target="#BulkPaper"/>raw material, the application and reproduction
                   of which is dependent upon the powers of the mind, not on those of matter. —
                      <persName ref="#RE">R. E.</persName>
                </p>

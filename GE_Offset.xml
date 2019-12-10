@@ -50,6 +50,7 @@
             
             <place xml:id="Birmingham">
                <placeName>Birmingham</placeName>
+               <idno type="URI">https://en.wikipedia.org/wiki/Birmingham</idno>
             </place>
 
             <place xml:id="Derbyshire">
@@ -84,12 +85,18 @@
                <placeName>Lancashire</placeName>
             </place>
             
+            <place xml:id="Manchester">
+               <placeName>Manchester</placeName>
+               <idno type="URI">https://en.wikipedia.org/wiki/Manchester</idno>
+            </place>
+            
             <place xml:id="Newcastle">
                <placeName>Newcastle</placeName>
             </place>
 
             <place xml:id="London">
                <placeName>London</placeName>
+               <idno type="URI">https://en.wikipedia.org/wiki/Great_Exhibition</idno>
             </place>
             
             <place xml:id="Sheffield">
@@ -98,6 +105,7 @@
 
             <place xml:id="Southampton">
                <placeName>Southampton</placeName>
+               <idno type="URI">https://en.wikipedia.org/wiki/Southampton</idno>
             </place>
 
             <place xml:id="StHelena">
