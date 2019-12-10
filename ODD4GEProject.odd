@@ -92,10 +92,10 @@
           </content>
           <constraintSpec ident="pInCategory" scheme="schematron">
             <constraint>
-              <sch:rule context="tei:teiHeader/taxonomy/category">
-              <sch:report test="tei:category">
-                A &lt;category&gt; element in the &lt;taxonomy&gt; may not contain a &lt;p&gt; element.
-              </sch:report>
+              <sch:rule context="tei:teiHeader//tei:category">
+                <sch:report test="tei:gloss">
+                  A &lt;category&gt; element in the &lt;taxonomy&gt; may not contain a &lt;gloss&gt; element.
+                </sch:report>
               </sch:rule>
             </constraint>
           </constraintSpec>
