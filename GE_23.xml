@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Gia-Alexander/HIST630/master/RebuiltODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -120,7 +120,7 @@
                   proceeding westward, these which contain the articles in the precious metals arc
                   met with, and extend from M. 6 to 22. But several objects properly belonging to
                   this Class, and included in it, are exhibited, as in other instances, in other
-                  parts of the Building ; the Jewel- case and the Great Diamond exhibited by
+                  parts of the Building ; the Jewel- case and the <objectName type="Jewellery">Great Diamond</objectName> exhibited by
                      <persName ref="#QueenVictoria">Her Majesty</persName> are instances of this
                   description. </p>
 
@@ -142,7 +142,8 @@
                <p xml:id="e23"> All these varieties in the manufacture of objects of use and luxury included in
                   this Class will be found illustrated by the productions of different exhibitors,
                   by many of whom a gorgeous display of plate and jewels is made. Attention cannot
-                  fail to be directed to the great Diamond, the Koh-i-Noor ; and to the Jewel-case
+                  fail to be directed to the <objectName type="Jewellery">great Diamond</objectName>, 
+                  the <object>Koh-i-Noor</object> ; and to the Jewel-case
                   in the Cinque-Cento style, exhibited by <persName>Her Majesty The
                   Queen</persName>. In addition is a table of gold and silver electro- plate, which
                   is an interesting reproduction of an antique subject. The massive specimens of
