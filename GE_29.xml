@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Gia-Alexander/HIST630/master/RebuiltODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>TEI Encoding of the Introduction to Class 29 from <bibl><title> Volume III of the
-                     Official Catalogue of the Great Exhibition of the Works of Industry of All
-                     Nations <date when="1851">1851</date>(4 vols.),</title><biblScope unit="page"
-                     from="789" to="789"/></bibl></title>
+               Official Catalogue of the Great Exhibition of the Works of Industry of All
+               Nations <date when="1851">1851</date>(4 vols.),</title><biblScope unit="page"
+                  from="789" to="789"/></bibl></title>
          </titleStmt>
          <publicationStmt>
             <authority>Gia O. Alexander</authority>
@@ -26,11 +26,11 @@
             <p>Information about the publication of the source work. Introductions to sections of
                the catalogue containing information about about writing substrates, implements and
                accessories excerpted from <bibl><title>Volume III of the Official Catalogue of the
-                     Great Exhibition of the Works of Industry of All Nations <date
-                        when="1851">1851</date></title> (4 vols.) from
+                  Great Exhibition of the Works of Industry of All Nations <date
+                     when="1851">1851</date></title> (4 vols.) from
                   <publisher>Archive.org</publisher>, scanned from <placeName ref="#HarvardCollege">Harvard College
                      Library</placeName> by <publisher>Google Books</publisher>. <idno type="URI">
-                     https://archive.org/details/officialcatalog06unkngoog/page/n14</idno></bibl>
+                        https://archive.org/details/officialcatalog06unkngoog/page/n14</idno></bibl>
             </p>
          </sourceDesc>
       </fileDesc>
@@ -85,7 +85,7 @@
             <head type="class"> MISCELLANEOUS MANUFACTURES AND SMALL WARES</head>
             <div type="intro">
                <head type="subTitle"> INTRODUCTION. </head>
-
+               
                <p xml:id="a29"> The miscellaneous character of the objects included in this Class renders it
                   difficult to convey a precise idea of its general import, or of the distinguishing
                   features of the articles exhibited under it. Small wares may be taken to
@@ -95,15 +95,16 @@
                   they are principally, though not exclusively, related to the minor points in the
                   domestic economy of society. And this will be evident on examination of the
                   Sub-Classes into which it is divided. </p>
-
+               
                <p xml:id="b29"> These are as follow : — A. Perfumery and Soap ; B. Articles for personal use, as
-                  Writing-desks, Dressing-cases. Work-boxes, when not exhibited in connection with
+                  <objectName type="BoxesCases">Writing-desks</objectName>, 
+                  <objectName type="BoxesCases">Dressing-cases</objectName>. <objectName type="BoxesCases">Work-boxes</objectName>, when not exhibited in connection with
                   precious metals and travelling wear generally ; C. Artificial Flowers ; D.
-                  Candles, and other means of giving light ; E. Confectionery of all kinds ; F.
+                  <objectName type="Candles">Candles</objectName>, and other means of giving light ; E. Confectionery of all kinds ; F.
                   Beads and Toys, when not of hardware. Fans, &amp;c. ; G. Umbrellas, Parasols,
                   Walking-sticks, &amp;c. ; H. Fishing-tackle of all kinds, Archery, &amp;c. ; I. Canes
                   of all kinds; J. Other miscellaneous manufactures. </p>
-
+               
                <p xml:id="c29"> These articles are placed in the North Transept Gallery. Included, however, among
                   the miscellaneous objects are two valuable and important collections which
                   scarcely appear to come under precise recognition in this Class. These collections
@@ -115,8 +116,8 @@
                   to accurate statistical local information. This list bos undergone careful
                   scientific revision, and its generic expressions may be taken as, on the whole,
                   accurate. </p>
-
-               <p xml:id="d29"> The manufacture of soaps and candles is the only one of great commercial
+               
+               <p xml:id="d29"> The manufacture of soaps and <objectName type="Candles">candles</objectName> is the only one of great commercial
                   importance to which this Class has relation. The employment of soap in many
                   processes of manufacture, in addition to the intense demand created by domestic
                   necessities, render its production on the great scale proportionally interesting.
@@ -132,8 +133,8 @@
                   itself to this manufacture with much success in this country, and the best soap is
                   produced at a rate very inferior to that of indifferent soaps in other countries,
                   and in our own at a former period. </p>
-
-               <p xml:id="e29"> The candle manufacture is also conducted on a very large scale. The introduction
+               
+               <p xml:id="e29"> The <objectName type="Candles">candle</objectName> manufacture is also conducted on a very large scale. The introduction
                   of oil, camphine, gas,, and other means of giving light, does not appear to have
                   very materially influenced this manufacture. The cause of which may, perhaps, be
                   sought in tho reluctance of many to apply gas to household users, and in the
@@ -143,9 +144,9 @@
                   spermaceti, not only in this but also in foreign countries. Fiscal restrictions
                   having been removed, the improvement in the candle manufacture has been most
                   striking, and the benefit to the public and to commerce proportionate. </p>
-
+               
                <p xml:id="f29"> The minor articles comprised within the limits of tins (-lass do not receive
-                  fishing-tackle, &amp;e.,hnve all (heir re8iH.'ctiye importance, and may, by those
+                  fishing-tackle, &amp;e.,hnve all their respective importance, and may, by those
                   interested in them, be studied in the locality already named. — <persName ref="#RE">R.
                      E.</persName>
                </p>
