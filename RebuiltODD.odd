@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD File for Great Exhibition Project</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Born Digital</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Catalogue of the Great Exhibition of 1851</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  
+  <text>
+    <body>
+      <schemaSpec ident="oddex1" start="TEI">
+        <desc/>
+        <moduleRef key="header" include="authority availability fileDesc publicationStmt sourceDesc teiHeader taxonomy titleStmt"/>
+        <moduleRef key="core" include="author bibl biblScope citedRange date editor head name note p pb pubPlace publisher resp respStmt title"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" include="body div text"/>
+        <moduleRef key="namesdates" include=" objectName persName placeName date"/>
+      </schemaSpec>
+
+      <elementSpec ident="category" module="header" mode="change">
+        <content>
+          <textNode/>
+          <elementRef key="category"/>
+        </content>
+        <attList>
+          <attDef ident="ref">
+            <valList type="closed">
+              <valItem ident="#Paper">
+                <gloss>PAPER, PRINTING, AND BOOKBINDING</gloss>
+              </valItem>
+              <valItem ident="#Metal">
+                <gloss>WORKS IN PRECIOUS METALS, JEWELLRY, ETC.</gloss>
+              </valItem>
+              <valItem ident="#Glass">
+                <gloss>GLASS</gloss>
+              </valItem>
+              <valItem ident="#Furniture">
+                <gloss> FURNITURE, UPHOLSTERY, PAPER HANGINGS, PAPIER MACHE AND JAPANNED GOODS</gloss>
+              </valItem>
+              <valItem ident="#SmallWares">
+                <gloss>MISCELLANEOUS MANUFACTURES AND SMALL WARES</gloss>
+              </valItem>
+            </valList> 
+            <remarks><p>This project uses taxonomies to categorize classes and subclasses of materials and objects
+              as presented in the Great Exhibition Catalogue.</p></remarks>
+          </attDef>
+        </attList>
+      </elementSpec>
+      
+      <elementSpec ident="category" module="header" mode="change">
+        <content>
+          <alternate>
+            <alternate>
+              <alternate minOccurs="1"
+                maxOccurs="unbounded">
+                <elementRef key="category"/>
+                <elementRef key="taxonomy"/>
+              </alternate>
+              <sequence>
+                <alternate minOccurs="1"
+                  maxOccurs="unbounded">
+                  <classRef key="model.glossLike"/>
+                  <classRef key="model.descLike"/>
+                </alternate>
+                <alternate minOccurs="0"
+                  maxOccurs="unbounded">
+                  <elementRef key="category"/>
+                  <elementRef key="taxonomy"/>
+                </alternate>
+              </sequence>
+            </alternate>
+            <sequence>
+              <classRef key="model.glossLike"/>
+              <alternate minOccurs="0"
+                maxOccurs="unbounded">
+                <elementRef key="category"/>
+                <elementRef key="taxonomy"/>
+              </alternate>
+            </sequence>
+          </alternate>
+        </content>
+      </elementSpec>
+            
+      <elementSpec ident="objectName" module="namesdates" mode="change">
+        <content>
+          <textNode/>
+          <elementRef key="objectName"/>
+        </content>
+        <attList>
+          <attDef ident="type">
+            <valList type="closed">
+              <valItem ident="BulkPaper"></valItem>
+              <valItem ident="Stationery"></valItem>
+              <valItem ident="CardStock"></valItem>
+              <valItem ident="Printing"></valItem>
+              <valItem ident="Communion"></valItem>
+              <valItem ident="PreciousMetals"></valItem>
+              <valItem ident="GeneralDomestic"></valItem>
+              <valItem ident="ElectroPlate"></valItem>
+              <valItem ident="SheffieldPlate"></valItem>
+              <valItem ident="Ormolu"></valItem>
+              <valItem ident="Jewellery"></valItem>
+              <valItem ident="OrnamentsToys"></valItem>
+              <valItem ident="Beads"></valItem>
+              <valItem ident="Curios"></valItem>
+              <valItem ident="Windows"></valItem>
+              <valItem ident="StainedGlass"></valItem>
+              <valItem ident="CastGlass"></valItem>
+              <valItem ident="Bottles"></valItem>
+              <valItem ident="ChemGlass"></valItem>
+              <valItem ident="FlintGlass"></valItem>
+              <valItem ident="OpticalGlass"></valItem>
+              <valItem ident="Decor"></valItem>
+              <valItem ident="Upholstery"></valItem>
+              <valItem ident="wallpaper"></valItem>
+              <valItem ident="PapierMache"></valItem>
+              <valItem ident="Perfume"></valItem>
+              <valItem ident="BoxesCases"></valItem>
+              <valItem ident="FakeFlowers"></valItem>
+              <valItem ident="Candles"></valItem>
+              <valItem ident="Confectionery"></valItem>
+              <valItem ident="Beads"></valItem>
+              <valItem ident="Umbrellas"></valItem>
+              <valItem ident="Fishing"></valItem>
+              <valItem ident="WalkingCanes"></valItem>
+              <valItem ident="MiscSmallWares"></valItem>
+            </valList> 
+            <exemplum xml:lang="en">
+              <p>The <gi>objectName</gi> element is used in this project to pair objects and types of objects
+              mentioned in the text to their corresponding subclasses as set forth in Great Exhibition Catalogue.</p>
+              <eg xml:space="preserve"><![CDATA[ <q>The application of improved <objectName type="Printing">machinery</objectName> to printing is also of recent
+                  date, and has been attended with results of great moment. </q>]]></eg>
+              <p>As shown above, the <att>type</att> attribute may be used to distinguish the one from the
+                other.</p>
+            </exemplum>
+            <remarks><p>This project uses objectName:type to specify subcategories of object classes in the Great Exhibition Catalogue.</p></remarks>
+          </attDef>
+        </attList>
+      </elementSpec>
+      
+      <constraintSpec ident="noGloss" scheme="schematron">
+       <constraint> <sch:rule context="tei:teiHeader//tei:catDesc">
+          <sch:report test="tei:gloss">
+            A &lt;catDesc&gt; element in the &lt;taxonomy&gt; may not contain a &lt;gloss&gt; element.
+          </sch:report>
+        </sch:rule>     
+       </constraint>           
+      </constraintSpec>
+      
+      <constraintSpec ident="mainCats" scheme="schematron">
+        <constraint>        <sch:rule context="tei:header/category">
+          <sch:let name="category" value="//tei:teiHeader/category/xml:id"/>
+          <sch:assert test=". = category">
+            Preferred values: #Paper, #Metal, #Glass, #Furniture, #SmallWares
+          </sch:assert>
+        </sch:rule>
+        </constraint>       
+      </constraintSpec>
+
+      <constraintSpec ident="ObjectCategories" scheme="schematron">
+        <constraint>
+          <sch:rule context="tei:body/p/objectName">
+            <sch:let name="objectName" value="//tei:body/p/objectName/type"/>
+            <sch:assert test=". = objectName">
+              Preferred values: 
+              BulkPaper, Stationery, CardStock, Printing, 
+              Communion, PreciousMetals. GeneralDomestic, ElectroPlate, SheffieldPlage, Ormolu, Jewellery, OrnamentsToys, Enamel, Curios, 
+              Windows, StainedGlass, CastGlass, Bottles, ChemGlass, FlintGlass, OpticalGlass,
+              Decor, Upholstery, Wallpaper, PapierMache,
+              Perfume, BoxesCases, FakeFlowers, Candles, Confectionery, Beads, Umbrellas, Fishing, WalkingCanes, MiscSmallWares                
+            </sch:assert>
+          </sch:rule>
+          
+        </constraint>
+        
+        
+      </constraintSpec>
+    </body>
+  </text>
+</TEI>
