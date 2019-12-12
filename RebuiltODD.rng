@@ -2988,7 +2988,4 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
          <empty/>
       </element>
    </define>
-   <start>
-      <choice/>
-   </start>
 </grammar>
