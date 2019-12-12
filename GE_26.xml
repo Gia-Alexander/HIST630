@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Gia-Alexander/HIST630/master/RebuiltODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
    <fileDesc>
@@ -69,14 +69,14 @@
                <head type="subTitle"> INTRODUCTION. </head>
 
                <p xml:id="a26"> The objects contemplated by the present Class are such as pertain to decorative
-                  and domestic uses in the furniture exclusively of this description. All those
+                  and domestic uses in the <objectName type="Furniture">furniture</objectName> exclusively of this description. All those
                   articles fur which the wants or luxuries of mankind have created a demand are
                   represented in this Class, and a lively picture of the degree of social and
                   domestic refinement attained in our age, and also, in fact, of the application of
                   art to ordinary objects, is thus presented to view. The Class is a large one in
                   regard to the number of its Exhibitors, and also to the space occupied in the
                   Exhibition Building. The articles exhibited present evidences of a large
-                  expenditure of time and money, and many of the decorative objects appear better to
+                  expenditure of time and money, and many of the <objectName type="Decor">decorative objects</objectName> appear better to
                   become the apartments of a palace than those of persons in the ordinary walks of
                   life. </p>
 
@@ -110,7 +110,7 @@
                   towns only. Of late, <placeName ref="#Manchester">Manchester</placeName> has produced a large number of paper-hangings,
                   printed by machinery ; in the Metropolis, a higher but more expensive class of
                   paper-hanging is made principally by ink, or, in other terms, by block-printing.
-                  The manufacture of papier mache is carried on to a very large extent at 
+                  The manufacture of <objectName type="PapierMache">papier mache</objectName> is carried on to a very large extent at 
                   Birmingham, where extensive factories have been erected, which are devoted solely to
                   the production of a variety of objects in this useful material. The manufacture is
                   also carried on at <placeName ref="#Southampton">Southampton</placeName> and in the
@@ -118,7 +118,7 @@
 
                <p xml:id="d26"> The amount of ingenuity, of contrivance, and arrangement, which has been expended
                   upon furniture, is scarcely conceivable, and it has been applied to the moat
-                  common objects of domestic utility. Tables, couches, chairs, &amp;c., have all
+                  common objects of domestic utility. <objectName type="Furniture">Tables</objectName>, couches, chairs, &amp;c., have all
                   received a share of this kind of attention ; and those improvements in their
                   adaptation to use, which have been considered worthy of more extensive
                   introduction, are illustrated in different directions, Many specimens of
@@ -132,7 +132,7 @@
                   purposes of decoration. The under surface is painted with the colours and veins of
                   marble, and the effect seen from above is not dissimilar, a variety of
                   paper-hangings of different designs, and of decorations applied to apartments,
-                  are also exhibited. The paper mache articles are extremely beautiful, and the
+                  are also exhibited. The <objectName type="PapierMache">paper mache</objectName> articles are extremely beautiful, and the
                   manner in which they are inlaid with pearl is interesting. </p>
 
                <p xml:id="f26"> The appearance of the entire Class bespake a high degree of national prosperity ;
